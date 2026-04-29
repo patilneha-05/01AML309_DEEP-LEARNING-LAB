@@ -14,7 +14,7 @@ client = genai.Client(api_key=api_key)
 # Generate content
 response = client.models.generate_content(
     model="gemini-2.5-flash-lite",
-    contents="What is Artificial Intelligence?"
+    contents="What is Artificial Intelligence? and how does it work?"
 )
 
 # Print response
